@@ -44,7 +44,11 @@ Usage
     
 4.  Commit the changes in the spec to the repo.
     
-5.  When you remove the issue from the spec, remember to add say so in the commit
+5.  To update the GH issues with changes in the spec, just run the script again.
+    It will update issues that have been modified, skip those that haven't changed
+    and add new ones.
+    
+6.  When you remove the issue from the spec, remember to add say so in the commit
     message (e.g. `"... closes #32."`) as GitHub will pick it that up and close
     the issue for you.
 
