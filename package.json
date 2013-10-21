@@ -1,0 +1,21 @@
+{
+  "name": "respec-issues",
+  "version": "0.0.1",
+  "description": "A utility to turn ReSpec issues into GitHub issues and link these together via the data-number attribute.",
+  "main": "index.js",
+  "bin": "./bin/respec-issues",
+  "preferGlobal": true,
+  "dependencies": {
+      "jsdom": "*",
+      "simple-github": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobie/respec-issues"
+  },
+  "author": "Tobie Langel",
+  "license": "MIT"
+}
